@@ -33,7 +33,6 @@
   font-family: "roboto", sans-serif;
   letter-spacing: 3px;
 }
-
 /* =============================
 ==========footer============= */
 
@@ -59,7 +58,6 @@
   color: #ffefba;
   border-bottom: 1px solid #ffefba;
 }
-
 /* =================================
 ======== page not found css ======= */
 .pnf {
@@ -90,7 +88,6 @@
   background-color: black;
   color: white;
 }
-
 /* ========================================= */
 /* =========contact us ========= */
 .contactus {
@@ -102,3 +99,8 @@
   justify-content: center;
 }
 
+/* ==================== */
+.product-link {
+  text-decoration: none !important;
+  color: black !important;
+}
