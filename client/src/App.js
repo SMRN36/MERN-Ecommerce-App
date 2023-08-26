@@ -16,6 +16,7 @@ import CreateProduct from "./pages/Admin/CreateProduct";
 import Users from "./pages/Admin/Users";
 import Orders from "./pages/user/Orders";
 import Profile from "./pages/user/Profile";
+
 function App() {
   return (
     <>
@@ -43,5 +44,6 @@ function App() {
     </>
   );
 }
+
 
 export default App;
