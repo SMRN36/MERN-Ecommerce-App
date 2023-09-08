@@ -64,7 +64,7 @@ const CreateProduct = () => {
 
   return (
     <Layout title={"Dashboard - Create Product"}>
-      <div className="container-fluid m-3 p-3">
+      <div className="container-fluid m-3 p-3 dashboard">
         <div className="row">
           <div className="col-md-3">
             <AdminMenu />
@@ -165,7 +165,9 @@ const CreateProduct = () => {
                 </Select>
               </div>
               <div className="mb-3">
-                <button className="btn btn-primary" onClick={handleCreate}>
+                <button className="btn" 
+                style={{ backgroundColor: '#7A7C76', color: 'white' }}
+                onClick={handleCreate}>
                   CREATE PRODUCT
                 </button>
               </div>
